@@ -27,6 +27,3 @@ fp-info-cache
 *.cmp
 *.log
 *.raw
-
-# Lock
-*.lck

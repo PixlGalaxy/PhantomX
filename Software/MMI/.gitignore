@@ -28,5 +28,5 @@ fp-info-cache
 *.log
 *.raw
 
-# Lock
-*.lck
+
+
