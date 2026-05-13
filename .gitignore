@@ -1,0 +1,30 @@
+# ====================================================================
+# KiCad 10 Gitignore Rule Set
+# ====================================================================
+
+# Auto-generated background files and structural session backups
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+
+# KiCad 10 local user workspace data (tracks your personal monitor configuration)
+*.kicad_prl
+fp-info-cache
+
+# Compilation and intermediate outputs (can be cleanly generated locally)
+*.net
+*.dsn
+*.ses
+*.cmp
+*.log
+*.raw
+
