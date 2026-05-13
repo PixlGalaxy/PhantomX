@@ -2,9 +2,147 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 6417737e-4970-46ce-94b0-3c6d1bf91825)
+	(uuid "6417737e-4970-46ce-94b0-3c6d1bf91825")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 44.45 73.66)
+		(size 33.02 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2779b52f-80ed-4f2f-8f05-b118f3c9718e")
+		(property "Sheetname" "Power Distribution"
+			(at 44.45 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_distribution.kicad_sch"
+			(at 44.45 85.6746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Phantom_Daughterboard_PCB"
+				(path "/6417737e-4970-46ce-94b0-3c6d1bf91825"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 73.66)
+		(size 31.75 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "787c1d3d-644d-41ac-bb89-8daaf1627f93")
+		(property "Sheetname" "Battery Management"
+			(at 86.36 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bms.kicad_sch"
+			(at 86.36 85.6746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Phantom_Daughterboard_PCB"
+				(path "/6417737e-4970-46ce-94b0-3c6d1bf91825"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 92.71)
+		(size 30.48 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d72d3c58-8df8-4f1e-9341-8ac6a4c39031")
+		(property "Sheetname" "ESP-32"
+			(at 45.72 91.9984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32.kicad_sch"
+			(at 45.72 103.4546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Phantom_Daughterboard_PCB"
+				(path "/6417737e-4970-46ce-94b0-3c6d1bf91825"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
